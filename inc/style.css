@@ -1,0 +1,258 @@
+html{
+    background-color: #353535;
+}
+
+*{
+        font-family: sans-serif;
+}
+
+.headerBG{
+    background-color: #353535;
+    border-radius: 0.5vw;
+    top: 0;
+    min-height: 10vh;
+    size: 0vh 0vh;
+    margin-top: 1vh;
+    
+
+}
+
+.footer{
+    background-color: #454545;
+    vertical-align: bottom;
+    max-height: 10vh;
+    position: absolute;
+}
+
+
+
+a{
+    display: inline-block;
+    font-family: sans-serif;
+
+}
+
+.navHome,.navRam,.navFAQ{
+    box-sizing: border-box;
+    color: #000;
+    float: right;
+    background: #8ED1FC;
+    border-radius: 1vw;
+    border: none;
+    padding: 1vh 1vw;
+    text-decoration: none;
+    font-size: 1vw;
+    position: sticky;
+    top: 10vh;
+    bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: sticky;
+
+}
+
+.navHome:hover,.navRam:hover,.navFAQ:hover{
+    opacity: .7;
+}
+
+.icon{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+.headerLogo {
+    display: block;
+    margin-left: 36vw;
+    margin-right: auto;
+    width: 15%;
+  }
+  button{
+      background:#353535 ;
+      border-radius: 1vw;
+      border-color: #454545;
+      text-align: center;
+      color: #c7c7c7;
+      vertical-align: middle;
+      margin-top: 1.5vh;
+      font-size: 2vw;
+  }
+
+  button:hover{
+      opacity: 0.5;
+  }
+
+  .dropdown {
+    margin-top: 6%;
+    color: #000;
+    display: inline-block;
+    background: #353535;
+    border-radius: 1.2vw;
+    border:none;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    vertical-align: middle;
+    
+    margin-left: 2vh;
+    margin-right: auto;
+    position:absolute;
+
+    
+  }
+
+
+  .dropdown-content {
+    align-items: center;
+    background: #454545;
+    border-color: #353535;
+    top: 10%;
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow:auto;
+  }
+  .dropdown:hover .dropdown-content {
+    border-color: #454545;
+    display: block;
+    border-radius: 1.5vw;
+    text-align: center;
+  }
+  .dropdown-content a {
+    background-color: #353535;
+    display: block;
+    border-color: #454545;
+    color: #c7c7c7;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.5vw;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #454545;
+  }
+
+
+  body{
+    background:#313131 ;
+    border-radius: 1vw;
+    border-color: #454545;
+    text-align: center;
+    color: #c7c7c7;
+    vertical-align: middle;
+}
+
+.Title1{
+    background:#313131;
+    display: flex;
+    
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 1.5vh;
+}
+
+
+.Title1 form{
+    width: 40vw;
+    border: 2px solid #636363;
+    padding: 25px;
+    background: #7e7e7e;
+    border-radius: 1vw;
+}
+
+.home a{
+    
+    background:#353535 ;
+    border-radius: 1vw;
+    border-color: #454545;
+    padding: 0.5vh 0.5vw;
+    text-align: center;
+    color: #c7c7c7;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-top: 1.5vh;
+    font-size: 2vw;
+    margin-left: 5.5vw;
+    float: left;
+    
+}
+
+
+.ramB:hover,.homeB:hover,.faqB:hover{
+opacity: 0.7;
+color: #ffffff;
+}
+
+
+/* FAQ */
+
+.TitleFAQ h1{
+    
+    font-size: 5vh;
+    background-color: #313131;
+    margin-bottom: 3vh;
+
+}
+
+.bodyFAQ{
+    background:#313131;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-shadow: black;
+    color: black;
+    
+}
+
+.bodyFAQ h1{
+    margin-bottom: 3vh;
+    font-size: 3vh;
+    color: red;
+    
+}
+
+
+.bodyFAQ a{
+    background:#353535 ;
+    border-radius: 1vw;
+    border-color: #454545;
+    padding: 0.5vh 0.5vw;
+    text-align: center;
+    color: #c7c7c7;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-top: 1.5vh;
+    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.bodyFAQ h2{
+    margin-top: 7vh;
+    text-shadow: black;
+
+
+}
+
+p{
+    color: #eee;
+}
+
+
+
+.bodyFAQ form{
+    width: 70vw;
+    border: 2px solid #420420;
+    padding: 25px;
+    background: #696969;
+    border-radius: 1vw;
+    
+}
