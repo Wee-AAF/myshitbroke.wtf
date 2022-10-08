@@ -198,6 +198,11 @@ color: #ffffff;
 
 }
 
+object{
+    
+    width: 80%;
+}
+
 .bodyFAQ{
     background:#313131;
     display: flex;
